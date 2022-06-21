@@ -28,10 +28,11 @@ div.scroll {
   float: center;
   color: #000;
   border-radius: 30px 0 0px 30px;
-  margin: 20px;
+  margin: 25px;
 }
 
-div.fixed-bottom {
+div.bottom {
+  margin: 25px;
   color: #fff;
 }
 

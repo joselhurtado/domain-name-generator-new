@@ -4,9 +4,9 @@ import "./style.css";
 
 window.onload = function() {
   let pronoun = ["the", "our", "best", "unique"];
-  let adj = ["great", "big", "amazing", "funny", "sleepy"];
-  let noun = ["jogger", "racoon", "motherinlaw", "elephant", "batman"];
-  let dtl = [".com", ".net", ".org", ".us", ".biz", ".co", ".academy"];
+  let adj = ["great", "big", "amazing", "super", "talented"];
+  let noun = ["developer", "designer", "artist", "unicorn", "fullstack"];
+  let dtl = [".com", ".net", ".org", ".us", ".biz", ".co", ".io", ".dev"];
 
   for (let i = 0; i < pronoun.length; i++) {
     for (let j = 0; j < adj.length; j++) {

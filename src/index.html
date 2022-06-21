@@ -3,26 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Domain Name Generator New</title>
+    <title>Domain Name Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="/src/main.js"></script>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Domain Name Generator</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
+    <div class="container text-center">
+      <h1 class="mt-5 text-danger">Domain Name Generator</h1>
+      <div class="container-fluid scroll">
+        <p id="domain_name"></p>
+      </div>
+      <button
+        type="button"
+        class="btn btn-danger"
+        onClick="window.location.reload();"
+      >
+        Refresh Page
+      </button>
+
+      <div class="bottom p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://www.hurtadojose.com">Jose Hurtado</a>
       </div>
     </div>
   </body>

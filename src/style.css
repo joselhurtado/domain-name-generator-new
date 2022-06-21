@@ -6,16 +6,16 @@ body {
   text-align: center;
 }
 
-.h1 {
+h1 {
   padding: 10px;
 }
 
-.h3 {
+h3 {
   margin: 0;
   padding: 20px 0;
 }
 
-.button {
+button {
   margin-top: 25px;
 }
 

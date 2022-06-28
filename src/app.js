@@ -4,8 +4,16 @@ import "./style.css";
 
 window.onload = function() {
   let pronoun = ["the", "our", "best", "unique"];
-  let adj = ["great", "big", "amazing", "super", "talented"];
-  let noun = ["developer", "designer", "artist", "unicorn", "fullstack"];
+  let adj = ["great", "big", "amazing", "super", "talented", "fantastic"];
+  let noun = [
+    "developer",
+    "designer",
+    "artist",
+    "unicorn",
+    "fullstack",
+    "astronaut",
+    "ninja"
+  ];
   let dtl = [".com", ".net", ".org", ".us", ".biz", ".co", ".io", ".dev"];
 
   for (let i = 0; i < pronoun.length; i++) {
